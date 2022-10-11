@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+footer
+{
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+}
+footer h2
+{
+  font-size: 26px;
+}
+footer h2:hover
+{
+  color: blue;
+}
+i
+{
+  padding: 5px;
+  font-size: 20px;
+  transition: .5s ease-in-out all;
+}
+i:hover
+{
+  color: white;
+}
+@media(max-width: 780px)
+{
+  footer 
+  {
+    display: block;
+  }
+  footer h2 
+  {
+    text-align: center;
+    font-size: 22px;
+  }
+  footer div 
+  {
+    text-align: center;
+  }
+}
+@media(max-width: 360px)
+{
+  footer h2 
+  {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+@media(max-width: 450px)
+{
+  .row
+  {
+    /* alert p-5 mt-5 mb-5 text-center */
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    padding-left: 40px;
+  }
+  .btnn
+  {
+    margin-left: -100px;
+    margin-right: 40px;
+  }
+  /* .thebtn
+  {
+    margin-right: -50px;
+  } */
+}
+.submit
+{
+  margin-right: -50px;
+}
+.btn
+{
+  margin-left: -50px;
+}
+.thebtn
+{
+  margin-left: 10px;
+}
+.slider img
+{
+  height: 480px;
+  width: 100%;
+}
+img
+{
+  width: 180px;
+  height: 250px;
+}
+section
+{
+  background: rgb(245, 242, 242);
+  padding: 20px;
+}
+section h1
+{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+section p
+{
+  color: gray;
+  text-align: center;
+}
+span
+{
+  font-weight: bold;
+  color: black;
+  background: rgb(245, 242, 242);
+}
+.img
+{
+  width: 250px;
+}
+h4
+{
+  text-align: center;
+  color: blue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main
+{
+  text-align: center;
+}
+main h5 , main p
+{
+  display: inline;
+}
+main h5
+{
+  font-weight: bold;
+}
+main p
+{
+  color: green;
+}
+.categores
+{
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+}
+.categores button
+{
+  border: 1px solid rgb(119, 108, 108);
+  background: black;
+  color: white;
+  transition: .4s ease-in-out all;
+}
+.categores button:hover
+{
+  background: white;
+  color: blue;
+  border-radius: 5px;
+}
+.categores button:active
+{
+  background: white;
+  color: blue;
+  border-radius: 5px;
+}
+.img
+{
+  margin-bottom: 5px;
+}
+.details
+{
+  color: blue;
+  font-style: italic;
+}
+.count
+{
+  display: inline;
+  color: blue;
+  font-weight: bold;
+}
+.up:hover
+{
+  background-color: gray;
+  border-radius: 10px;
+}
+#light {
+  background-color: white;
+}
+#dark {
+  background-color: rgb(24, 14, 30);
+}
+#light .switch label {
+  color: black;
+}
+#dark .switch label {
+  color: white;
+}
